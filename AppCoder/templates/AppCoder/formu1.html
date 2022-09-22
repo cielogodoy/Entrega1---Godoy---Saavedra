@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario 1</title>
+</head>
+<body>  
+      <form action="" method="POST"> {% csrf_token %}
+        <h3 style="font-family: Roboto">Registro a cursos:</h3>
+        <p style="font-family: Roboto">Indique su nombre y camada a la cual desea anotarse:</p>
+
+        <table style="font-family: Roboto">
+            {{form1.as_p}}
+        </table>
+    <i style="font-family: Roboto">Una vez enviada su solicitud, será redireccionado al inicio.</i> <br>
+    <br>
+    <input type= "submit" value="Enviar" style="font-family: Roboto">
+    </form>  
+</body>
+</html>

@@ -1,0 +1,18 @@
+{% extends "AppCoder/padre.html" %}
+{% load static %} 
+
+{% block titulo %}
+Sitio para buscar los turno a alguno de nuestros servicios{% endblock %}
+
+{% block descripcion %}
+<center>
+    <br>
+    <h2>Ingrese el servicio que desea verificar:</h2>
+    <form action="/AppCoder/buscar/" method="GET">
+        <input type="number" name="camada" id="camada">
+        <input type="submit" value="Buscar">
+    </form>
+    </center>
+    <br>
+    <br>   
+    {% endblock %}

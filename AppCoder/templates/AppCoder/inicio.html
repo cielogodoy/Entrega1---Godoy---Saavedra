@@ -1,0 +1,19 @@
+{% extends "AppCoder/padre.html" %}
+{% load static %} 
+
+{% block titulo %}
+Bienvenidos a PaueloNails<br>
+<I>Spa de uñas</i>
+{% endblock %}
+
+{% block descripcion %}
+
+<p> {{busqueda}}</p>
+
+{% for curso in cursos%}
+<ul>
+<li>Curso: {{curso.nombre}}</li>
+<li>Camada: {{curso.camada}}</li>
+</ul>
+{% endfor %}
+{% endblock %}
