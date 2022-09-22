@@ -8,6 +8,6 @@ A través del mismo el usuario podra:
 - Consultar por disponibilidad de productos
 
 En la página principal se encuentran las pestañas con las distintas opciones.
-Según la consigna de la primera entrega: permite cargar en la base de datos de los modelos creados y un formulario de búsqueda (en pestaña Cursos)}
+Según la consigna de la primera entrega: permite cargar en la base de datos de los modelos creados y un formulario de búsqueda (en pestaña Cursos)
 
-Se proyecta como mejora: la posibilidad de mantener el estilo de la página en las pestañas tipo formulario de carga de datos
+Se proyecta como mejora: la posibilidad de mantener el estilo de la página en las pestañas tipo formulario de carga de datos.
