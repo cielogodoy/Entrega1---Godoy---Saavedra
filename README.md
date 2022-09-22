@@ -1,9 +1,9 @@
 # Entrega1-Godoy-Saavedra
-Entrega parcial proyecto final CoderHouse
+Entrega parcial proyecto final CoderHouse - Pauelo Nails
 
 El presente respositorio modela una página WEB de un centro de manicuría.
-A través del mismo el usuario podra: 
-- Pedir turnos
+A través del mismo el usuario podrá: 
+- Pedir turnos 
 - Anotarse a cursos
 - Consultar por disponibilidad de productos
 
