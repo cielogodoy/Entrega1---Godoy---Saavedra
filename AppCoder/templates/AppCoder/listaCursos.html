@@ -1,0 +1,14 @@
+{% extends "AppCoder/padre.html" %}
+
+{% block titulo %}
+Lista de cursos
+
+{% endblock %}
+{% block descripcion %}
+<h1>Los cursos son: </h1>
+
+{% for curso in object_list %}
+
+<li>Nombre: {{curso.nombre}}</li>
+{%endfor%}
+{% endblock %}

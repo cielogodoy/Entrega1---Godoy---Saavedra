@@ -3,11 +3,24 @@
 {% load static %} 
 
 {% block titulo %}
-Sitio para buscar los productos por marca<br>
+Sitio para mostrar los productos y marca<br>
 
 {% endblock %}
 {% block descripcion %}
 
-<h5><center> Se propone realizar en futuras entregas</h5></center><br><br>
+<h5><center> Se muestran los productos disponibles</h5></center><br><br>
+{% for produc in products%}
+<ul>
+    <li>Producto: {{produc.nombre}}</li>
+    <li>Marca: {{produc.marca}}</li>
+    <button>
+            <a href="{% url 'editarProduc' produc.nombre %}"> <ul><li>Editar</a> </li></ul>
+            </button>
+    <button>
+                <a href="{% url 'borrarProductos' produc.nombre %}"> <ul><li>Borrar</a> </li></ul>
+                </button>
+</ul>
+{%endfor%}
 
+<a href="{% url 'Formulario Productos'%}"> <ul><li>Carga de stock</a> </li></ul>
 {%endblock%}

@@ -1,0 +1,20 @@
+{% extends "AppCoder/padre.html" %}
+
+
+{% block titulo %}
+Registrese a nuestra WEB
+{%endblock%}
+
+{% block descripcion %}
+    <form action="" method="POST">
+
+        {% csrf_token %}
+
+        {{form6.as_p}}
+
+        <button type="submit"> Registrarse</button>
+
+
+    </form>
+
+{% endblock %}

@@ -1,0 +1,14 @@
+<!-- Hereda del template padre-->
+{% extends "AppCoder/padre.html" %}
+{% load static %} 
+
+{% block titulo %}
+Sitio para mostrar los usuarios generados<br>
+
+{% endblock %}
+
+{% block descripcion %}
+<h5><center> Se deberían mostrar los usuarios activos</h5></center><br><br>
+
+<a href="{% url 'Edición de usuarios'%}"> <ul><li>Editar usuario</a> </li></ul>
+{%endblock%}

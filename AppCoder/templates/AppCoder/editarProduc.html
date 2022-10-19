@@ -4,19 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario 2</title>
+    <title>Formulario 3</title>
 </head>
 <body>  
     <form action="" method="POST"> {% csrf_token %}
-      <h3 style="font-family: Roboto">Formulario de datos del turno:</h3>
+      <h3 style="font-family: Roboto">Formulario de modificación de producto:</h3>
       <table style="font-family: Roboto">
-          {{form2.as_p}}
-          <h5>El formato para el día del turno debe ser: año-mes-día.</h5>
+          {{form3.as_p}}
       </table>
   <i style="font-family: Roboto">Una vez enviada su solicitud, será redireccionado al inicio.</i> <br>
   <br>
-  <input type= "submit" value="Guardar" style="font-family: Roboto">
+  <input type= "submit" value="Modificar stock" style="font-family: Roboto">
   </form>  
 </body>
 </html>
-

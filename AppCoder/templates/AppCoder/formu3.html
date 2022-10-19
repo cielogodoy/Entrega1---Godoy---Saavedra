@@ -8,13 +8,13 @@
 </head>
 <body>  
     <form action="" method="POST"> {% csrf_token %}
-      <h3 style="font-family: Roboto">Formulario de datos del producto requerido:</h3>
+      <h3 style="font-family: Roboto">Formulario de carga de nuevo producto:</h3>
       <table style="font-family: Roboto">
           {{form3.as_p}}
       </table>
   <i style="font-family: Roboto">Una vez enviada su solicitud, será redireccionado al inicio.</i> <br>
   <br>
-  <input type= "submit" value="Consultar" style="font-family: Roboto">
+  <input type= "submit" value="Cargar a stock" style="font-family: Roboto">
   </form>  
 </body>
 </html>
